@@ -55,6 +55,35 @@ nav {
     display: none;
 }
 
+.mw-100 {
+    max-width: 100%;
+}
+
+.advantages_container {
+    display: flex;
+    justify-content: center;
+}
+
+.advantages {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.advantages_item {
+    width: 30%;
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 768px) {
     .topnav a:not(:first-child) {
         display: none;
@@ -69,7 +98,6 @@ nav {
     
     nav {
         width: 100%;
-        height: 100px;
     }
     
     .topnav.responsive {
@@ -87,9 +115,21 @@ nav {
         display: block;
         text-align: left;
     }
+    
+    .advantages_item {
+        width: 45%;
+    }
 }
 
-
+@media screen and (max-width: 420px) {
+    .advantages {
+        flex-direction: column;
+    }
+    
+    .advantages_item {
+        width: 100%;
+    }
+}
 
 
 

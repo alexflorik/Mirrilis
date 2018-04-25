@@ -226,7 +226,19 @@ footer nav a:hover {
     padding: 0 0.5rem;
 }
 
+.location {
+    padding-bottom: 50px;
+    
+}
+.location h1 {
+    text-align: center;
+}
 
+#map {
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+}
 
 
 

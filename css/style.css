@@ -111,6 +111,32 @@ footer nav a:hover {
     border-radius: 50%;
 }
 
+.gallery {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.photo-item {
+    width: 25%;
+}
+
+.photo-item img {
+    box-sizing: border-box;
+    max-width: 100%;
+    opacity: 0.7;
+}
+
+.photo-item img:hover {
+    opacity: 1;
+}
+
+
+
+
+
 
 
 
@@ -156,7 +182,23 @@ footer nav a:hover {
     .advantages_item {
         width: 45%;
     }
+    
+    .photo-item {
+        width: 45%;
+        margin-left: 10px;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 420px) {
     .advantages {
@@ -165,6 +207,22 @@ footer nav a:hover {
     
     .advantages_item {
         width: 100%;
+    }
+    
+    .project {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .gallery {
+        width: auto;
+        margin: auto;
+    }
+    
+    .photo-item {
+        width: 70%;
+        margin: 0 auto;
     }
 }
 

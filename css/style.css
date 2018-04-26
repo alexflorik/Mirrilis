@@ -335,14 +335,7 @@ textarea {
     grid-gap: 50px 100px;
 }
 
-
-
-
-
-
-
-
-
+/******************************************/
 
 @media screen and (max-width: 768px) {
     .topnav a:not(:first-child) {
@@ -390,16 +383,7 @@ textarea {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
+/****************************************/
 
 @media screen and (max-width: 420px) {
     .advantages {
